@@ -1,0 +1,106 @@
+/*Start of main Styles*/
+* {
+  box-sizing: border-box;
+}
+@media (min-width: 560px) {
+  html {
+    --column-count: 1;
+  }
+}
+
+body {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: linear-gradient(to right, rgb(204, 203, 203), rgb(51, 50, 50));
+  background-position: 100%;
+}
+
+.header-bar {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+.list-item {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 14px 16px;
+  overflow: hidden;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+.list-item:hover {
+  background-color: rgba(128, 128, 128, 0.507);
+}
+
+/*End of main Styles*/
+
+.openingPara {
+  background-color: rgba(32, 31, 31, 0.295);
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.websitesList {
+  margin-left: 20px;
+}
+
+.webProjects {
+  display: inline-block;
+  border: solid 2px rgba(14, 13, 13, 0.418);
+  padding: 5px;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.445);
+}
+
+img {
+  float: left;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.project-info {
+  text-align: center;
+}
+
+.site-link,
+.code-link,
+.code-portfolio {
+  box-sizing: border-box;
+  border: solid 1px rgb(222, 222, 240);
+  color: #fff;
+  background-color: rgb(43, 41, 41);
+  float: right;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  cursor: pointer;
+}
+
+.site-link:hover,
+.code-portfolio:hover {
+  background-color: rgba(192, 192, 192, 0.87);
+  color: black;
+  border: solid 1px black;
+}
+
+.apps-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.code-link {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}

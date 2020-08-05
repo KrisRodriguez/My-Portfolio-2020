@@ -1,0 +1,215 @@
+/*For Media Shrink*/
+@media screen and (max-width: 1200px) {
+  .left,
+  .right,
+  .tool-list {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #basicCert {
+    margin-right: 117px;
+    align-items: center;
+  }
+}
+
+:root {
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+/*Start of Nav*/
+.listItem {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+  border-right: solid;
+  border-left: solid;
+}
+
+.navList {
+  text-align: center;
+  padding-right: 30px;
+}
+/*End of Nav*/
+.listItem:hover {
+  background-color: darkgray;
+  padding: 5px;
+}
+/*Background*/
+body {
+  background-image: url("images/coverPhoto.jpg");
+  background-position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(0.75);
+}
+/*Summary Box design*/
+.starter {
+  margin-top: 60px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.header-bar {
+  background-color: rgba(39, 38, 38, 0.308);
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+h2 {
+  color: rgb(94, 87, 87);
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+  color: rgb(53, 51, 51);
+  font-weight: bold;
+  text-align: center;
+  margin-right: 50px;
+  text-decoration: underline;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+/*Tool Box designing*/
+aside {
+  float: left;
+  width: 37%;
+  height: 410px;
+  background: rgba(204, 204, 204, 0.144);
+  padding: 10px;
+  border: solid rgba(128, 128, 128, 0.205);
+  margin-bottom: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-position: outside;
+  box-sizing: border-box;
+}
+
+li {
+  padding: 7px;
+  margin: 1px;
+  font-weight: bold;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
+}
+
+.right {
+  display: inline-block;
+  padding-bottom: 40px;
+}
+
+.contact-input {
+  width: 100%;
+  align-items: center;
+}
+
+textarea {
+  padding: 50px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    margin-left: 490px;
+  }
+}
+
+.container {
+  display: flexbox;
+  justify-content: center;
+  align-self: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  width: 400px;
+  margin-top: 80px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 20px;
+}
+
+.form {
+  padding: 30px 40px;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  color: #777;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control input,
+textarea {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.form-control input:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #777;
+}
+
+.form-control.success input {
+  border-color: var(--success-color);
+}
+
+.form-control.error input {
+  border-color: var(--error-color);
+}
+
+.form-control small {
+  color: var(--error-color);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.form-control.error small {
+  visibility: visible;
+}
+
+.form button {
+  cursor: pointer;
+  background-color: #3498db;
+  border: 2px solid #3498db;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
